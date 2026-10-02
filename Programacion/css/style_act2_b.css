@@ -1,0 +1,75 @@
+/* --------------- General -------------*/
+body{
+    margin: 0;
+    background-color: white;
+    
+}
+
+.principal_contacto{
+    width: 100%;
+    background-color: black;
+    
+
+}
+
+.principal_contacto_form_contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    align-items: center;
+    margin-bottom: 5rem;
+    
+    
+}
+
+.principal_contacto_form_contenedor_div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.principal_contacto_form_contenedor_div_email{
+    margin-bottom: 0.9rem;
+    padding: 0.9rem;
+    border: 0;
+    font-size: 1.1rem;
+    
+}
+
+.principal_contacto_form_contenedor_div_boton{
+    padding: 0.5rem;
+    border: 0;
+    text-align: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 0.35rem;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 1.1rem;
+
+}
+
+.principal_contacto_form_contenedor_div_boton:hover{
+    background-color: grey;
+    color: black;
+        
+}
+
+/*-----Secion Principal (main)-----*/
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 3rem;
+    
+
+}
+
+
+
+
+
+

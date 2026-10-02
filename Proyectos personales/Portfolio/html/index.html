@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio personal de diseño y desarrollo digital. Ideas cuidadas, experiencias útiles y proyectos hechos con intención."
+    />
+    <meta name="theme-color" content="#f5f4ef" />
+    <title>Alex Rivera — Diseño y desarrollo digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" id="inicio">
+      <nav class="nav shell" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Alex Rivera, inicio">
+          <span class="brand-mark" aria-hidden="true">a.</span>
+          <span>Alex Rivera<span class="brand-dot">.</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#trabajo">Trabajo</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#contacto">Contacto</a>
+          <button class="theme-toggle" type="button" aria-label="Activar modo oscuro">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+            </svg>
+            <span class="theme-label">Modo oscuro</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Disponible para nuevos proyectos</p>
+          <h1 id="hero-title">Diseño ideas.<br />Construyo <span class="accent-text">experiencias.</span></h1>
+          <p class="hero-description">
+            Soy Alex, diseñador y desarrollador digital. Transformo ideas complejas en experiencias
+            sencillas, útiles y con personalidad.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#trabajo">
+              Explorar proyectos
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"></path></svg>
+            </a>
+            <a class="text-link" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-foot">
+            <span>Basado en Madrid, trabajando en todas partes</span>
+            <span class="availability"><span class="status-dot"></span> Abierto a colaborar</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Composición gráfica abstracta" role="img">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-sun"></div>
+          <div class="art-card">
+            <span class="art-card-label">IDEAS EN MOVIMIENTO</span>
+            <svg class="art-wave" viewBox="0 0 300 142" fill="none" aria-hidden="true">
+              <path d="M3 112C35 108 31 25 64 27c34 2 26 108 61 108 32 0 31-91 64-91 32 0 27 54 60 54 20 0 33-29 48-45" />
+              <path class="wave-secondary" d="M3 127c29 0 31-40 61-40 29 0 34 37 62 37 31 0 34-69 64-69 29 0 27 30 59 30 20 0 35-16 48-26" />
+            </svg>
+            <div class="art-card-bottom"><span>Diseño con intención</span><span>01 — 25</span></div>
+          </div>
+          <div class="art-sticker" aria-hidden="true">Menos<br />ruido,<br /><span>más idea.</span></div>
+          <span class="art-spark spark-one" aria-hidden="true">✳</span>
+          <span class="art-spark spark-two" aria-hidden="true">✳</span>
+        </div>
+        <a class="scroll-cue" href="#trabajo"><span></span> Desliza para explorar</a>
+      </section>
+
+      <section class="work-section section shell" id="trabajo" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Una selección reciente</p>
+            <h2 id="work-title">Trabajo <span class="muted-text">que habla.</span></h2>
+          </div>
+          <p class="section-aside">Cada proyecto empieza con una pregunta.<br />Estos son algunos finales.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrar proyectos">
+          <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos <span>04</span></button>
+          <button class="filter-button" type="button" data-filter="digital" aria-pressed="false">Digital <span>02</span></button>
+          <button class="filter-button" type="button" data-filter="identidad" aria-pressed="false">Identidad <span>01</span></button>
+          <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web <span>01</span></button>
+        </div>
+
+        <div class="project-grid">
+          <button class="project-card project-large" type="button" data-category="digital" data-project="luma" aria-label="Ver detalles de Luma">
+            <span class="project-visual visual-luma">
+              <span class="luma-glow"></span>
+              <span class="luma-wordmark">luma<span>®</span></span>
+              <span class="luma-caption">MAKE ROOM<br />FOR YOURSELF</span>
+              <span class="luma-orbit"></span>
+            </span>
+            <span class="project-meta"><span><strong>Luma</strong><small>Una pausa en tu día</small></span><span class="project-type">Producto digital <b>↗</b></span></span>
+          </button>
+
+          <button class="project-card" type="button" data-category="identidad" data-project="sur" aria-label="Ver detalles de Sur">
+            <span class="project-visual visual-sur">
+              <span class="sur-sun"></span>
+              <span class="sur-name">SUR</span>
+              <span class="sur-copy">OBJETOS PARA<br />TODOS LOS DÍAS</span>
+              <span class="sur-number">EST. 2024</span>
+            </span>
+            <span class="project-meta"><span><strong>Sur</strong><small>Lo cotidiano, bien hecho</small></span><span class="project-type">Identidad <b>↗</b></span></span>
+          </button>
+
+          <button class="project-card" type="button" data-category="web" data-project="casa-norte" aria-label="Ver detalles de Casa Norte">
+            <span class="project-visual visual-casa">
+              <span class="casa-topline">ESPACIOS CON CALMA <span>— 2025</span></span>
+              <span class="casa-title">Casa<br /><i>Norte.</i></span>
+              <span class="casa-circle"></span>
+              <span class="casa-cta">DESCUBRIR EL ESTUDIO ↗</span>
+            </span>
+            <span class="project-meta"><span><strong>Casa Norte</strong><small>Estudio de arquitectura</small></span><span class="project-type">Web <b>↗</b></span></span>
+          </button>
+
+          <button class="project-card project-large" type="button" data-category="digital" data-project="marea" aria-label="Ver detalles de Marea">
+            <span class="project-visual visual-marea">
+              <span class="marea-stamp">FRESCO<br />Y LOCAL</span>
+              <span class="marea-title">marea.</span>
+              <span class="marea-produce produce-one"></span>
+              <span class="marea-produce produce-two"></span>
+              <span class="marea-bottom">Una forma más bonita de comer bien.</span>
+            </span>
+            <span class="project-meta"><span><strong>Marea</strong><small>Comida buena, sin complicaciones</small></span><span class="project-type">Producto digital <b>↗</b></span></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="about-section section" id="sobre-mi" aria-labelledby="about-title">
+        <div class="about-inner shell">
+          <div class="about-marker"><span>02</span><span class="marker-line"></span><span>Un poco sobre mí</span></div>
+          <div class="about-content">
+            <h2 id="about-title">Creo en las buenas ideas,<br />y en hacerlas <span class="accent-text">realidad.</span></h2>
+            <div class="about-bottom">
+              <p>
+                Trabajo en la intersección del diseño y la tecnología. Me gusta hacer las preguntas
+                adecuadas, cuidar los detalles y crear cosas que se sienten tan bien como funcionan.
+              </p>
+              <div class="skills">
+                <span>Dirección de arte</span><span>Diseño UI/UX</span><span>Desarrollo web</span><span>Identidad visual</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-decoration" aria-hidden="true"><span>a</span><i>✳</i></div>
+        </div>
+      </section>
+
+      <section class="contact-section section shell" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-topline"><span>03 — ¿Tienes algo en mente?</span><span>MI PRÓXIMO PROYECTO PODRÍA SER EL TUYO.</span></div>
+        <h2 id="contact-title">Hagamos algo<br /><span class="outline-text">que importe.</span></h2>
+        <div class="contact-bottom">
+          <a class="contact-email" href="mailto:hola@alexrivera.design">hola@alexrivera.design <span>↗</span></a>
+          <button class="copy-email" type="button" data-email="hola@alexrivera.design">Copiar email</button>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer shell">
+      <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">a.</span><span>Alex Rivera<span class="brand-dot">.</span></span></a>
+      <span>Diseñado con intención. © <span id="current-year"></span></span>
+      <a class="back-top" href="#inicio">Volver arriba ↑</a>
+    </footer>
+
+    <dialog class="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Cerrar detalles">×</button>
+      <p class="eyebrow dialog-category"></p>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-description"></p>
+      <div class="dialog-footer"><span class="dialog-services"></span><span>Proyecto conceptual · 2025</span></div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

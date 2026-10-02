@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e3e1;
+    margin: 0;
+}
+
+.caja {
+    background-color: #fdfbea;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #34556b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #2a4559;
+}

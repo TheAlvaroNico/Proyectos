@@ -1,0 +1,74 @@
+/* --------------- General -------------*/
+body{
+    margin: 0;
+    
+    
+}
+
+a{
+    text-decoration: none; /*quita el subrayado de las palabras*/
+
+}
+
+/* --------------- Header -------------*/
+.cabecera{
+    width: 100%;
+    background-color: black;
+    
+    
+}
+
+.cabecera_logo{
+    width: 40%;
+    margin-left: 35rem;
+
+}
+
+/*-----Secion Principal (main)-----*/
+
+.principal{
+    background-color: grey;
+    display: flex;
+    justify-content: end;
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.cabecera_nav{ 
+    background-color: gray;
+    
+    
+}
+
+.cabecera_nav_lista{
+    display: flex;
+    
+
+}
+
+.cabecera_nav_lista_enlace{
+    margin-right: 2rem;
+    color: aliceblue; 
+    font-size:1rem ;
+
+}
+
+.cabecera_nav_lista_enlace:hover{
+    color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
